@@ -1,0 +1,35 @@
+1-You can start a comment with <!-- and end a comment with -->
+
+2-Classes are reusable styles that can be added to HTML elements.
+eg.<style>
+  .blue-text {
+    color: blue;
+  }
+</style>
+
+3-import and apply a Google font .First, you'll need to make a call to Google to grab the Lobster font and load it into your HTML.Copy the following code snippet and paste it into the top of your code editor:
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+after this apply the font-family of Lobster.
+
+4-DEGRADATION
+if you wanted an element to use the Helvetica font, but also degrade to the Sans-Serif font when Helvetica wasn't available, you could use this CSS style:
+p {
+  font-family: Helvetica, Sans-Serif;
+}
+
+5-If you want to create a red, 5 pixel border around an HTML element, we could use this class:
+<style>
+  .thin-red-border {
+    border-color: red;
+    border-width: 5px;
+    border-style: solid;
+  }
+</style>
+You can also specify a border-radius with pixels or percentage(circular images).
+
+6-using a and href---https://i.imgur.com/hviuZwe.png
+
+7-turn image into links.You can make elements into links by nesting them within an a element.# is for dead link.
+<a href="#">
+<img src="https://bit.ly/fcc-running-cats" alt="Three kittens running towards the camera. ">
+</a>
