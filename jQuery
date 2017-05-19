@@ -1,0 +1,18 @@
+1-Before we can start using jQuery, we need to add some things to our HTML.
+  First, add a script element at the top of your page. Be sure to close it on the following line
+  Inside your script element, add this code: $(document).ready(function() { to your script. Then close it on the following line (still       inside your script element) with: });
+  The important thing to know is that code you put inside this function will run as soon as your browser has loaded your page.
+  
+2-All jQuery functions start with a $.
+  For example, let's make all button elements bounce. Just add this code inside your document ready function:
+  $("button").addClass("animated bounce");            //for all buttons
+  $(".text-primary").addClass("animated shake");      //for all elements with class text-primary
+  $("#target6").addClass("animated fadeOut").         //for all elements with id as target3
+  
+  
+3-
+  
+  
+  
+  
+  
