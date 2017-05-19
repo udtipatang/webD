@@ -61,9 +61,15 @@
     </div>
   ___________________________________________________________________________________________
   
-  11-
-  
-  
+  11-Font Awesome is a convenient library of icons. These icons are vector graphics, stored in the .svg file format. These icons are          treated just like fonts. You can specify their size using pixels, and they will assume the font size of their parent HTML elements.
+     You can add Font Awesome to any app just by including it by adding the following code to the top of your HTML:
+              <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"/>
+     You add the Font Awesome classes to the i element to turn it into an icon, for example:
+              <i class="fa fa-info-circle"></i>
+     to make a thumbs up sign on your like button,you can use--     
+     <button class="btn btn-block btn-primary">
+          <i class="fa fa-thumbs-up"></i> Like
+    </button>
   
   
   
